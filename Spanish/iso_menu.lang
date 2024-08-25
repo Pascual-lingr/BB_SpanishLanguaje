@@ -1,0 +1,40 @@
+# iso_menu.lang - Idioma Español
+
+bb_im_wait_1='Pulse [ENTER] para volver al menú.'
+
+bb_im_menu_title='Menú ISO'
+bb_im_menu_1='Grabar ISO'
+bb_im_menu_2='Crear ISO desde archivos en '
+bb_im_menu_3='CD Crear ISO desde CD'
+bb_im_menu_4='Grabar imagen de DVD'
+bb_im_menu_5='Montar imagen'
+bb_im_menu_0='Volver'
+bb_im_menu_entry='Cuál es tu elección? '
+
+bb_im_error_files='No hay archivos en'
+
+bb_im_ch2_1='Éxiste una ISO en'
+bb_im_ch2_2=' Borrarla o moverla'
+bb_im_ch2_3='antes de intentar crear una nueva.'
+bb_im_ch2_4='Intentando crear archivo de imagen ISO'
+
+bb_im_ch2_4b='Etiqueta para su CD de Datos: '
+
+bb_im_ch2_5='ISO creada'
+bb_im_ch2_6='Error: ¡No puedo crear el archivo de imagen ISO!'
+bb_im_ch2_7='¿Es posible que no tenga permisos de escritura?'
+
+bb_im_ch3_1=' no montado! Hágalo primero...'
+bb_im_ch3_2='Creando ISO desde CD en '
+
+bb_im_ch5_1='Escriba la ruta del archivo que será montado:'
+bb_im_ch5_2='(O pulse ENTER para cancelar)'
+bb_im_ch5_3='Nombre de archivo no informado, abortando.'
+
+bb_im_ch0='Volviendo al menú...'
+
+bb_im_error='Por favor especifique '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

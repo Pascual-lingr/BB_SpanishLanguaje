@@ -1,0 +1,16 @@
+# convert_images.lang - Idioma Español
+
+bb_conv_img_copied1a='El archivo de imagen debe copiarse o enlazarse en'
+bb_conv_img_copied1b='Para ser convertido antes en una imagen ISO.'
+
+bb_conv_img_copied2='¿Lo ha hecho? (y/n): '
+
+bb_conv_img_copied3a='Por favor copie la imagen a'
+bb_conv_img_copied3b='antes de intentar grabarla.'
+
+bb_conv_img1='ahora esta convertido a formato ISO.'
+bb_conv_img2='no ha podido convertirse.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

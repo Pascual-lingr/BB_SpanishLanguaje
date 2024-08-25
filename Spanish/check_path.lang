@@ -1,0 +1,18 @@
+# check_path.lang - Idioma Español
+
+bb_cp_1='Aplicación encontrada'
+bb_cp_2='en'
+bb_cp_3='¡Aplicación NO ENCONTRADA!'
+bb_cp_4='Instalala o algunas características no funcionarán.'
+bb_cp_5='Comprobando rutas...'
+bb_cp_6=' Herramientas de grabación'
+bb_cp_7=' Extractores'
+bb_cp_8=' Codificadores y Descodificadores'
+bb_cp_9=' Misceláneo'
+bb_cp_10='NOTA: Instala los programas que no se han encontrado'
+bb_cp_11='o BashBurn no funcionará correctamente.'
+bb_cp_12='Pulsa [ENTER] para volver al menú principal'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

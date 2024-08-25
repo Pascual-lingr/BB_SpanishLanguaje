@@ -1,0 +1,28 @@
+# commonfunctions.lang - Idioma Español
+
+bb_cf_text1='Este CD parece estar previamente grabado. ¿Desea borrarlo?'
+bb_cf_text2='Solamente responda 'yes' si el disco es regrabable. Responda'
+bb_cf_text3="'abort' si quiere cancelar el proceso y volver al menú principal."
+bb_cf_text4='Abortando...'
+
+bb_cf_text5='Intentando grabar CD sin borrar previamente. Probablemente falle el proceso.'
+bb_cf_text6='Error al borrar. Proceso de grabación abortado.'
+
+bb_cdrw_blank1='Borrando cd...'
+bb_cdrw_blank2='CDRW borrado'
+bb_cdrw_blank3='Fallo en el proceso de borrado. Intentando forzar borrado...'
+bb_cdrw_blank4='Borrado forzoso ejecutado con éxito.'
+bb_cdrw_blank5='El proceso de borrado ha falladol. Debe reemplazar este CD'
+bb_cdrw_blank6='CD/DVD parece estar en blanco(O no existe en la unidad), no se borra...'
+
+bb_dvd_blank1='¿Borrado rápido o completo?'
+bb_dvd_blank2='Escriba yes para borrado rápido,'
+bb_dvd_blank3='o no para realizar un borrado completo.'
+bb_dvd_blank4='Pulse [ENTER] sin ingresar nada'
+bb_dvd_blank5='para cancelar la operación.'
+
+bb_menu_error_range="${BBTABLECOLOR}Error${BBCOLOROFF}: La entrada debe ser un rango"
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

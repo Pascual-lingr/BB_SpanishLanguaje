@@ -1,0 +1,38 @@
+# loopback.lang - Idioma Español
+
+bb_lb_noread='No pudo leerse.'
+bb_lb_no_lb_dir='No existe el directorio loopback, creándolo...'
+
+bb_lb_dir_c='Directorio creado.'
+bb_lb_dir_cf='Fallo creando directorio, abortando.'
+
+bb_lb_no_im_dir='No existe el directorio de imágenes, creándolo...'
+bb_lb_no_temp_dir='No existe el directorio de archivos temporañes, creándolo...'
+
+bb_lb_sudo1='Debe estar en el grupo sudoers para montar la imagen.'
+bb_lb_sudo2='Escriba a continuación su contraseña, si no se permite la ejecución'
+bb_lb_sudo3='es posible que su usuario no este en el grupo. En ese caso, arréglelo y pruebe de nuevo.'
+bb_lb_sudo4='Se debe contar con el soporte para dispositivos loopback '
+bb_lb_sudo5='compilado en el kernel o como módulo de éste,'
+bb_lb_sudo6='sin este soporte el siguiente proceso fallará.'
+
+bb_lb_mount='Imagen montada.'
+bb_lb_mount_fail=' Fallo al montar, abortando.'
+
+bb_lb_cp_cont='Copiando contenidos, por favor espere...'
+
+bb_lb_in_file="Ahora esta en el sistema de ficheros de la imagen. Edite lo que desee, ejecute 'exit' para volver."
+
+bb_lb_change1='¿Hizo algún cambio? (Si lo hizo, debe crear una nueva imagen'
+bb_lb_change2='lo cual le llevará un tiempo) (y/n)'
+bb_lb_change3='Existen datos en'
+bb_lb_change4='seran borrados si continua el proceso.'
+bb_lb_change5='¿Quiere seguir adelante? (y/n)'
+bb_lb_change6='Creando nueva imagen, por favor espere...'
+bb_lb_change7='Nueva imagen creada en'
+bb_lb_change8='Abortando, no se realiza borrado de datos. Cambios en la imagen descartados.'
+bb_lb_change9='No se realizaron cambios, omitiendo la creación de la imagen.'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

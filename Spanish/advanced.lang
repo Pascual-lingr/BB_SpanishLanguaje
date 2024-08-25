@@ -1,0 +1,101 @@
+# Idioma Español para advanced.lang
+
+bb_adv_menutitle='Opciones Avanzadas'
+bb_adv_cdburncmd='Comando para grabación de CD'
+bb_adv_dvdburncmd='Comando para grabación de DVD'
+bb_adv_dvdburncmdopts='Opciones para grabación en DVD'
+bb_adv_isocmd='Comando para crear imágenes ISO'
+bb_adv_dvdblankcmd='Comando para borrar DVD'
+bb_adv_imgburncmd='Comando para grabar imágenes en CD'
+bb_adv_audioripcmd='Comando para la extracción de CD Audio'
+bb_adv_cdcopycmd='Comando para la copia de CD'
+bb_adv_cdcopyopts='Opciones para copia de CD'
+bb_adv_mp3enc='Comando para la codificación de MP3'
+bb_adv_mp3dec='Comando para descodificación de MP3'
+bb_adv_oggenc='Comando para la codificación de Ogg'
+bb_adv_oggdec='Comando para descodificación de Ogg'
+bb_adv_flac='Comando para codificación/descodificación de FLAC'
+bb_adv_eject='Comando para expulsión de disco'
+bb_adv_norm='Comando para la normalización de audio'
+bb_adv_nrg2iso='Comando conversor de NRG a ISO'
+bb_adv_back='Volver'
+bb_adv_action_desc='Acciones'
+bb_adv_error='Pulse ENTER'
+
+bb_this_is_the_cmd="Este es el comando usado para"
+bb_curr_cmd="El comando actual es:"
+
+bb_adv_cdburncmd_help=\
+"${bb_this_is_the_cmd} la grabación en CD.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmd_help=\
+"${bb_this_is_the_cmd} la grabación en DVD.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBURNCMD}${BBCOLOROFF}"
+
+bb_adv_dvdburncmdopts_help=\
+"Estas son la opciones usadas para la grabación de DVD. Cámbielas solamente 
+si sabe lo que esta haciendo. En muchos casos las opciones por defecto deberían de ser correctas.
+Las opciones actuales son: ${BBOPTIONCOLOR}${BB_DVDBURNCMDOPTS}${BBCOLOROFF}"
+
+bb_adv_isocmd_help=\
+"${bb_this_is_the_cmd} crear imágenes ISO.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_ISOCMD}${BBCOLOROFF}"
+
+bb_adv_dvdblankcmd_help=\
+"${bb_this_is_the_cmd} borrar DVDs.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_DVDBLANK}${BBCOLOROFF}"
+
+bb_adv_imgburncmd_help=\
+"${bb_this_is_the_cmd} grabar imágenes en CD.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDIMAGECMD}${BBCOLOROFF}"
+
+bb_adv_audioripcmd_help=\
+"${bb_this_is_the_cmd} extraer CDs de Audio.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_CDAUDIORIP}${BBCOLOROFF}"
+
+bb_adv_cdcopycmd_help=\
+"${bb_this_is_the_cmd} copiar CDs de Datos.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_READCD}${BBCOLOROFF}"
+
+bb_adv_cdcopyopts_help=\
+"Estas son la opciones usadas para copiar CDs.
+Cambie solamente estas opciones si sabe lo que esta haciendo.
+En muchos casos las opciones por defecto deberían ser correctas.
+Las opciones actuales son: ${BBOPTIONCOLOR}${BB_READ_OPTS}${BBCOLOROFF}"
+
+bb_adv_mp3enc_help=\
+"${bb_this_is_the_cmd} codificar archivos MP3.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3ENC}${BBCOLOROFF}"
+
+bb_adv_mp3dec_help=\
+"${bb_this_is_the_cmd} descodificar archivos MP3.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_MP3DEC}${BBCOLOROFF}"
+
+bb_adv_oggenc_help=\
+"${bb_this_is_the_cmd} codificar archivos Ogg.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGENC}${BBCOLOROFF}"
+
+bb_adv_oggdec_help=\
+"${bb_this_is_the_cmd} descodificar archivos Ogg.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_OGGDEC}${BBCOLOROFF}"
+
+bb_adv_flac_help=\
+"${bb_this_is_the_cmd} codificar/descodificar archivos FLAC.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_FLACCMD}${BBCOLOROFF}"
+
+bb_adv_eject_help=\
+"${bb_this_is_the_cmd} expulsar el disco de la unidad.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_EJECT}${BBCOLOROFF}"
+
+bb_adv_norm_help=\
+"${bb_this_is_the_cmd} normalizar archivos de audios.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NORMCMD}${BBCOLOROFF}"
+
+bb_adv_nrg2iso_help=\
+"${bb_this_is_the_cmd} la conversión de archivos NRG en archivos ISO.
+${bb_curr_cmd} ${BBOPTIONCOLOR}${BB_NRG2ISO}${BBCOLOROFF}"
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

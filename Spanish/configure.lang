@@ -1,0 +1,197 @@
+# configure.lang - Idioma Español
+
+bb_conf_menu_writer="Grabadora de CD"
+bb_conf_menu_cddev="Lector de CD"
+bb_conf_menu_cdmnt="Punto de montaje del lector de CD"
+bb_conf_menu_speed="Velocidad"
+bb_conf_menu_blank="Tipo de Borrado"
+bb_conf_menu_numdev="Número de Dispositivos"
+bb_conf_menu_root="Directorio raíz"
+bb_conf_menu_burn="Directorio de grabación"
+bb_conf_menu_label="Etiqueta de CD"
+bb_conf_menu_auth="Autor"
+bb_conf_menu_desc="Descripción"
+bb_conf_menu_norm="Normalización"
+bb_conf_menu_dropt="Opciones de driver"
+bb_conf_menu_fifo="Directorio para FIFO"
+bb_conf_menu_deltmp="Borrar temporales después de grabar"
+bb_conf_menu_ob="Permitir overburn"
+bb_conf_menu_bitrate="Establecer Bitrate"
+bb_conf_menu_lang="Idioma"
+bb_conf_menu_dtao="DAO/TAO"
+bb_conf_menu_gap="Silencio entre pistas"
+bb_conf_menu_adv="Avanzado"
+bb_conf_menu_apply="Aplicar Cambios"
+bb_conf_menu_default="Valores por Defecto"
+bb_conf_menu_revert="Revertir Cambios"
+bb_conf_menu_back="Volver"
+bb_conf_menu_entry="¿Cuál es su elección?"
+
+bb_conf_action_desc=Actions
+
+bb_conf_menu_toptext1="Configuración"
+bb_conf_menu_toptext2='Valor Actual'
+bb_conf_default_is='Por defecto es'
+
+bb_conf_cancel_quote='Para cancelar, pulse [ENTER].'
+
+bb_conf_ch_writer=\
+"Se supone que la grabadora se ingresa como ${BBOPTIONCOLOR}0,0,0${BBCOLOROFF} para SCSI
+o /dev/hdX para grabadoras IDE (Donde X es una letra de unidad).
+Para autodetección, teclee auto. ${bb_conf_cancel_quote}
+La configuración actual es: ${BBOPTIONCOLOR}${BBCDWRITER}${BBCOLOROFF}, abajo se listan
+las posibles grabadoras en su sistema (De acuerdo con /etc/fstab)." 
+		  
+
+bb_conf_ch_cddev="El archivo perteneciente al lector de CD/DVD-ROM generalmente es
+${BBOPTIONCOLOR}/dev/cdrom${BBCOLOROFF} o ${BBOPTIONCOLOR}/dev/dvd${BBCOLOROFF}.
+La configuración actual es: ${BBOPTIONCOLOR}${BBCDROM}${BBCOLOROFF}, abajo se listan
+los posibles lectores en su sistema (De acuerdo con /etc/fstab).
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_cdmnt="El punto de montaje de tu lector de CD/DVD-ROM generalmente es
+${BBOPTIONCOLOR}/mnt/cdrom${BBCOLOROFF} o ${BBOPTIONCOLOR}/mnt/dvd${BBCOLOROFF}.
+La configuración actual es: ${BBOPTIONCOLOR}${BBCDMNT}${BBCOLOROFF}, abajo se listan
+los posibles lectores en su sistema (De acuerdo con /etc/fstab).
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_speed="A menos que tenga problemas para grabar discos, debería dejar
+esta opción como ${BBOPTIONCOLOR}-1${BBCOLOROFF} y usar los valores predeterminados específicos de la unidad.
+Para la mayoría de las grabadoras, el valor predeterminado es escribir a la velocidad máxima.
+La configuración actual es: ${BBOPTIONCOLOR}${BBSPEED}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_blanking=\
+"Aquí puede esteblecer el tipo de borrado a realizar por defecto. El valor por defecto es
+${BBOPTIONCOLOR}fast${BBCOLOROFF}. Esto borra el disco entero y por lo tanto
+puede tomar algo de tiempo.
+La configuración actual es: ${BBOPTIONCOLOR}${BBBLANKING}${BBCOLOROFF}, abajo se listan 
+los posibles tipos de borrado. ${bb_conf_cancel_quote}"
+
+bb_conf_ch_numdev=\
+"Aquí especifique el número de unidades de disco en su sistema.
+Si está utilizando una unidad como lectora y grabadora, ingrese ${BBOPTIONCOLOR}1${BBCOLOROFF},
+en caso contrario ingrese ${BBOPTIONCOLOR}2${BBCOLOROFF}.
+La configuración actual es: ${BBOPTIONCOLOR}${BBNUMDEV}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_root="Esta opción especifica la localización de los scripts de BashBurn.
+Realmente no debería tener ninguna razón para cambiar este valor.
+solo hágalo si sabe lo que está haciendo.
+La configuración actual es: ${BBOPTIONCOLOR}${BBROOTDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_burndir=\
+"Esta opción especifica a BashBurn que datos buscará para grabar.
+Debe estar seguro de que tiene permisos de escritura en esta localización.
+El valor actual es: ${BBOPTIONCOLOR}${BBBURNDIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_label="Esta opción especifica el nombre de disco que se grabará.
+Puede ser una cadena de texto de 32 caracteres tal y como
+${BBOPTIONCOLOR}Mis fotografías${BBCOLOROFF} o ${BBOPTIONCOLOR}Videos de Vacaciones${BBCOLOROFF}.
+Si quiere que le pidan\n una etiqueta cada vez.
+Ingrese ${BBOPTIONCOLOR}<ask-me>${BBCOLOROFF} como etiqueta.
+El valor actual es ${BBOPTIONCOLOR}${BBLABEL}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_author="Esta opción describe el preparador del disco,
+generalmente con un e-mail y número de telefono. Hay espacio para 128
+caracteres de información.
+El valor actual es: ${BBOPTIONCOLOR}${BBAUTHOR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_desc=\
+"Esta opción describe lo que se grabará en el disco.
+Hay espacio para 128 caracteres de información.
+El valor actual es: ${BBOPTIONCOLOR}${BBDESCRIPTION}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_norm=\
+"La normalización es el proceso de ajuste de volumen en los archivos de audio
+al nivel estandar. Esto es útil para cosas como crear
+CD mixtos con diferentes niveles de grabación en diferentes canciones.
+puede hacer que el volumen varíe mucho de una canción a otra.
+Esta opción habilita ${BBHEADCOLOR}(yes)${BBCOLOROFF}
+o deshabilita ${BBTABLECOLOR}(no)${BBCOLOROFF} esta característica.
+La opción actual es: ${BBOPTIONCOLOR}${BBNORMALIZE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+    
+bb_conf_ch_dropts=\
+"Esta opción especifica opciones propias del driver 
+durante la grabación de discos. Un ejemplo es ${BBOPTIONCOLOR}burnfree${BBCOLOROFF} para
+evitar insuficiencias de datos en el buffer. Puede especificar varias opciones separas
+por una coma. Esta opción no es obligatoria y puede saltarse.
+El valor actual es: ${BBOPTIONCOLOR}${BBDRIVEROPT}${BBCOLOROFF}, y abajo se listan
+las posibles opciones. ${bb_conf_cancel_quote}\n\n${BBSUBCOLOR}${bb_text_7}${BBCOLOROFF}\n"
+
+bb_conf_ch_fifo=\
+"Esta opción especifica la ruta del directorio FIFO
+que es usado en las grabaciones de audio mediante tubería (pipe). Generalmente no
+hay razón para cambiarlo, la opción por defecto funciona en la mayoría de casos.
+El valor actual es: ${BBOPTIONCOLOR}${BBFIFODIR}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_tempdel=\
+"Si quiere BashBurn borre los archivos en${BBBURNDIR}
+después de grabar el disco, escriba ${BBHEADCOLOR}yes${BBCOLOROFF} aquí.
+De lo contrario escriba ${BBTABLECOLOR}no${BBCOLOROFF} para no borrarlos.
+El valor actual es: ${BBOPTIONCOLOR}${BBDELTEMPBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_ob="Overburn es para intentar grabar mas sobre un dico
+diseñado para ello. Esto no siempre funciona, y cuando lo haga
+sólo caben unos pocos MB. Su grabadora debe soportar esta característica
+y no es una garantía que el disco pueda ser legible en todos
+los lectores. Esta opción habilita ${BBHEADCOLOR}(yes)${BBCOLOROFF} o
+deshabilita ${BBTABLECOLOR}(no)${BBCOLOROFF} esta característica.
+El valor actual es: ${BBOPTIONCOLOR}${BBOVERBURN}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_bitrate=\
+"Para archivos de audio. La tasa de bits (bitrate) es la principal influencia de calidad.
+Con una tasa de bits alta se obtiene una mejor calidad, pero también un archivo de mayor tamaño.
+Esta opción especifica cual será la tasa de bits a usar en la codificación de archivos de audio.
+La unidad es en kbit y debe ser entera en multiplos de 32.
+El valor actual es: ${BBOPTIONCOLOR}${BBBITRATE}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_lang=\
+"Esta opción establece el lenguaje que será mostrado en el interfaz de BashBurn.
+El valor actual es: ${BBOPTIONCOLOR}${BBLANG}${BBCOLOROFF}, se lista debajo
+los posibles idiomas para elegir.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_dtao="Esta opción informa a BashBurn sobre el uso de los modos TAO (Track at once)
+ o SAO (Session at Once) en grabaciones de CD. El valor por defecto es TAO ${BBOPTIONCOLOR}(-tao)${BBCOLOROFF} funciona
+bien en la mayoría de casos, en otros ${BBOPTIONCOLOR}(-sao)${BBCOLOROFF} se debe usar SAO.
+El valor actual es: ${BBOPTIONCOLOR}${BBDTAO}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_ch_pad=\
+"Esta opción le especifica a BashBurn si habilita ${BBHEADCOLOR}(-pad)${BBCOLOROFF} o
+deshabilita ${BBTABLECOLOR}(-nopad)${BBCOLOROFF}
+el silencio entre pistas de audio. CD Si quieres grabar un CD de Audio
+sin silencio entre pistas (Por ejemplo para un grabación en vivo),
+deshabilita esta opción
+La configuración actual es ${BBOPTIONCOLOR}${BBPADDING}${BBCOLOROFF}.
+${bb_conf_cancel_quote}"
+
+bb_conf_apply_1='¡Cambios Aplicados!'
+bb_conf_apply_2='No puedo escribir en'
+bb_conf_apply_3='Es posible que desee ejecutar chmod 666'
+
+bb_conf_def_1='¡Valores por defecto aplicados!'
+bb_conf_def_2="(BBROOTDIR tiene *no* por defecto - tiene que cambiarlo!)"
+
+bb_conf_xit_1='Volver al menú principal'
+bb_conf_xit_2=\
+"Parece que cambió una opción pero no la aplicó.\n
+Aquí puede seleccionar '${BBTABLECOLOR}n${BBCOLOROFF}' volver y hacerlo;
+Si quiere ignorar el cambio, seleccione '${BBHEADCOLOR}y${BBCOLOROFF}'.\n"
+
+bb_conf_err='Por favor especifique '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

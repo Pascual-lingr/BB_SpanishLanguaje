@@ -1,0 +1,32 @@
+# datadefine.lang - Idioma Español
+
+bb_mnt_menu_title='Definición de datos a grabar'
+
+bb_wfe_1='Pulse [ENTER] para volver al menú principal.'
+
+bb_dc_menu_1=' Copiar o Enlazar datos en'
+bb_dc_menu_2=' Consultar datos en '
+bb_dc_menu_3=' Borrar datos de'
+bb_dc_menu_0=' Volver'
+
+bb_dc_explain1='Esta ahora bajo un shell. Su posición actual'
+bb_dc_explain2a=' es en el directorio'
+bb_dc_explain2b=' .Para que BashBurn '
+bb_dc_explain3='pueda grabar cualquier cosa, debe copiar o enlazar sus'
+bb_dc_explain4='datos en este directorio. Puede hacerlo usando los comandos'
+bb_dc_explain5='cp o ln. Por ejemplo, para enlazar datos aquí, debe ejecutar:'
+bb_dc_explain6=" 'ln -s <ruta de los datos> ./' (Sin '')"
+bb_dc_explain7='y copiar datos reemplazando ln -s por cp.'
+bb_dc_explain8='Cuando termine escriba exit para volver al menú.'
+
+bb_dc_ch3_1="¿Quiere verdaderamente borrar estos archivos? <'${BBHEADCOLOR}y${BBCOLOROFF}'/'${BBTABLECOLOR}n${BBCOLOROFF}'>: "
+bb_dc_ch3_2='Archivos borrados.'
+bb_dc_ch3_3='Archivos no borrados'
+bb_dc_ch3_4='No hay archivos en'
+
+bb_dc_menu_err='Error. Por favor, elige'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **
+

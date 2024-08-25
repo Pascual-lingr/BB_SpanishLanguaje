@@ -1,0 +1,74 @@
+# audio_menu.lang - Idioma Español
+
+bb_am_enter_1='Pulse [ENTER] para volver al menú principal.'
+bb_am_enter_2='Inserte un CD en blanco y pulse [ENTER] para proceder :'
+
+bb_am_nomp3s='No hay mp3s en '
+bb_am_nooggs='No hay Oggs en '
+bb_am_noflacs='No hay Flacs en '
+
+bb_am_norm_1=' Normalizando '
+
+bb_am_err_1='[ERROR]: Disculpe :( ¡BashBurn no puede leer el CD!'
+
+bb_am_conf_1=' Ha seleccionado la extracción de estas pistas:'
+bb_am_conf_2='¿Es esto correcto? (y/n): '
+
+bb_am_named_1='Información de disco...'
+bb_am_named_2='Pulse [ENTER] para continuar o'
+bb_am_named_3='Ingrese el número de pistas a extraer '
+bb_am_named_4='¡Soportados los espacios en blanco en nombres de archivo!'
+bb_am_named_5='ej. Artista - Canción, Canción_Artista, Artista-Canción.'
+bb_am_named_6='Cuál es el nombre de la pista'
+
+bb_am_rip_1=' Extrayendo pista '
+bb_am_rip_2='¡Pistas de Audio Extraidas!'
+
+bb_am_encfilt=' Filtro para el comando de codificación...'
+
+bb_am_menu_title='Menú Audio'
+bb_am_menu_1='Grabar Audio desde Mp3s/Oggs/Wavs/FLACs'
+bb_am_menu_2='Grabar Audio Directamente'
+bb_am_menu_3='Copiar CD Audio [CD a CD]'
+bb_am_menu_4='Copiar CD Audio [CD a Disco Duro]'
+bb_am_menu_5='Grabar lista de música M3U'
+bb_am_menu_6='Crear MP3s desde Wavs'
+bb_am_menu_7='Crear Oggs desde Wavs'
+bb_am_menu_8='Crear FLACs desde Wavs'
+bb_am_menu_9='Crear MP3s desde CD'
+bb_am_menu_10='Crear Oggs desde CD'
+bb_am_menu_11='Crear FLACs desde CD'
+bb_am_menu_0='Volver'
+bb_am_menu_input='¿Cuál es tu elección? '
+
+bb_am_ch3_1='Grabación completada - Gracias por usar BashBurn'
+bb_am_ch3_2='¡Ha ocurrido un error! No puedo grabar el CD'
+bb_am_ch3_3='¡Ha ocurrido un error! No puedo extraer las pistas de'
+
+bb_am_ch4_1='Pistas extraidas y guardadas en '
+bb_am_ch4_2=' Si quiere crear'
+bb_am_ch4_3='mp3s, oggs o flacs, use la función respectiva desde el menú.'
+
+bb_am_ch5='Fallo al leer la lista de música. No se intenta la grabación.'
+
+bb_am_ch6_1=' creado...'
+bb_am_ch6_2=' no pudo ser comprimido'
+bb_am_ch6_3='No hay Wavs en '
+
+bb_am_ch7_1='Archivo creado...'
+
+bb_am_ch9_1=' Creando MP3s...'
+bb_am_ch9_2='MP3s creados. Los arcchivos estan localizados en '
+
+bb_am_ch10_1=' Creando Oggs...'
+bb_am_ch10_2='Oggs creados. Los arcchivos estan localizados en '
+
+bb_am_ch11_1='FLACs creados. Los arcchivos estan localizados en '
+
+bb_am_ch0='Retornando al menú principal'
+
+bb_am_error='Por favor escoge'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

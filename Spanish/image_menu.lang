@@ -1,0 +1,11 @@
+# image_menu.lang - Idioma Español
+
+bb_image_menu_title='Menú de Imágenes'
+bb_image_menu1='Menú ISO'
+bb_image_menu2='Grabar archivos bin/cue'
+bb_image_menu3='Convertir archivos NGR'
+bb_image_menu_back='Volver'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

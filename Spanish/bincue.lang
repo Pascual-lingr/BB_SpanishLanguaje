@@ -1,0 +1,17 @@
+# bincue.lang - Idioma Español
+
+bb_press_enter='Pulse [ENTER] para volver al menú principal'
+
+bb_bincue_copy_1='Los archivos Bin y Cue deben copiarse o enlazarse en'
+bb_bincue_copy_1b='antes de intentar la grabación.'
+bb_bincue_copy_2='¿Lo tiene hecho? (y/n): '
+
+bb_bincue_copy_3='Por favor copia los archivos bin/cue en'
+bb_bincue_copy3b='antes de intentar grabar.'
+
+bb_bincue_burn_1='Grabación finalizada'
+bb_bincue_burn_2='Error al grabar. ¿Es posible que no tenga los permisos correctos?'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

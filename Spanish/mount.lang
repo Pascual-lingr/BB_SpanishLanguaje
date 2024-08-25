@@ -1,0 +1,42 @@
+# mount.lang - Idioma Español
+
+bb_mnt_enter_1='Pulse [ENTER] para volver'
+
+bb_mnt_menu_title='Montar/Desmontar Dispositivo'
+bb_mnt_menu_1='Monta dispositivo'
+bb_mnt_menu_2='Desmonta dispositivo'
+bb_mnt_menu_3='Expulsa disco de dispositivo'
+bb_mnt_menu_0='Volver'
+bb_mnt_menu_input='¿Cuál es su elección? '
+
+bb_mnt_ch1_1='¿Que dispositivo quiere montar? Ingréselo como /mnt/cdrom'
+bb_mnt_ch1_2='(Debe indicar el punto de montaje, no el archivo del dispositivo. Por ejemplo'
+bb_mnt_ch1_3='/mnt/cdrom funcionará, pero /dev/cdrom no lo hará. Pulse enter sin '
+bb_mnt_ch1_4='escribir nada para abortar.'
+bb_mnt_ch1_5='Montaje abortado!'
+bb_mnt_ch1_6='Montando '
+bb_mnt_ch1_7=' montado.'
+bb_mnt_ch1_8='Fallo al montar. ¿Es posible que no tenga los permisos correctos,'
+bb_mnt_ch1_9='que el dispositivo ya este montado, o que no exista ningún disco en la unidad,'
+bb_mnt_ch1_10='o especificó mal la ruta del dispositivo?'
+
+bb_mnt_ch2_1='No parece haber ningún dispositivo montado.'
+bb_mnt_ch2_2='¿Que dispositivo quiere desmontar? Ingréselo como /mnt/cdrom'
+bb_mnt_ch2_3=' desmontado.'
+bb_mnt_ch2_4='Fallo al desmontar. ¿Es posible que no tenga los permisos correctos'
+bb_mnt_ch2_5='o de haber especificado erróneamente la ruta del dispositivo?'
+
+bb_mnt_ch3_1='¿Cual es el dispositivo que quiere expulsar? Ingréselo como /mnt/cdrom'
+bb_mnt_ch3_1b='o presione enter sin ingresar nada para abortar.'
+bb_mnt_ch3_1c='Abortado!'
+bb_mnt_ch3_2=' expulsado. (En caso de que no lo haya notado ;-) )'
+bb_mnt_ch3_3='Fallo al expulsar. ¿Es posible que no tenga los permisos correctos'
+bb_mnt_ch3_4='o de haber especificado erróneamente la ruta del dispositivo?'
+
+bb_mnt_ch0='Volver al menú principal'
+
+bb_mnt_error='Por favor escoja '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

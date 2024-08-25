@@ -1,0 +1,43 @@
+# burning.lang - Idioma Español
+
+bb_press_enter='Pulse [ENTER] para volver al menú principal.'
+
+bb_no_ob='No se habilita overburn...'
+
+bb_burning_tmp_1='Archivos temporales en'
+bb_burning_tmp_1b='borrados...'
+bb_burning_tmp_2='no borrados...'
+
+bb_burning_audio_1='encontrado'
+bb_burning_audio_2='No hay archivos de audio en'
+bb_burning_audio_3='No se usa la normalización de audio...'
+
+bb_burning_finish_1='Grabación finalizada.'
+bb_burning_finish_2='Error en la grabación.'
+bb_burning_finish_3='Archivos copiados o enlazados a'
+
+bb_burning_error='No hay archivos en '
+
+bb_burning_iso_1='No se encuentra imagen ISO en'
+
+bb_burning_data_1='Intentando crear el archivo ISO'
+
+bb_burning_data_label='Etiqueta para su CD de Datos: '
+
+bb_burning_data_2='Error: No puedo crear el archivo de imagen ISO.'
+bb_burning_data_3='¿Es posible que necesite permisos de escritura?'
+
+bb_burning_fifo_1='No hay archivos WAV en'
+bb_burning_fifo_2='¡Se grabarán'
+bb_burning_fifo_2b='pistas!'
+bb_burning_fifo3='Limpiando fifos no usados'
+
+bb_burning_dvd_1='¿Es la primera sessión de este DVD?'
+bb_burning_dvd_2='(Escriba no si quiere añadir una nueva sesión en'
+bb_burning_dvd_3='que este lista para ser grabada en DVD. Para cancelar esta operación'
+bb_burning_dvd_4='pulse [ENTER] sin ingresar nada)'
+bb_burning_dvd_5='(yes/no): '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

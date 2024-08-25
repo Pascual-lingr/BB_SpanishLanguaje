@@ -1,0 +1,41 @@
+# multi.lang - Idioma Español
+
+bb_multi_enter_1='Pulse [ENTER] para volver al menú principal.'
+bb_multi_enter_2='Pulse [ENTER] para continuar.'
+
+bb_multi_burn_1='Archivo ISO encontrado...'
+bb_multi_burn_2=' si esta NO es la primera grabación del CD multisesión'
+bb_multi_burn_3=' entonces esta imagen ISO *DEBE* haber sido creada usando los parámetros correctos de offset'
+bb_multi_burn_4=' ¿Por que? Porque de lo contrario la nueva sesión grabada seria inservible'
+bb_multi_burn_5='Grabando CD...'
+bb_multi_burn_6=' Imagen ISO no encontrada, intentando crear una...'
+bb_multi_burn_7='Obteniendo el offset de la última sesión usando -msinfo'
+bb_multi_burn_8='La información necesaria para múltiples sesiones es:'
+bb_multi_burn_9='entre parentesis'
+bb_multi_burn_9b='hay dos números con coma - TODO ESTA BIEN PARA PROCEDER!'
+bb_multi_burn_10="un mensaje de error terminado con: \"cdrecord: Cannot read session offset\" significa que se trata de un CD virgen"
+bb_multi_burn_11="un mensaje de error terminado con: \"cdrecord: No disk / Wrong disk!\" significa que no existe ningún disco en la grabadora"
+bb_multi_burn_12='Obtuve datos multisesión válidos, agregando argumentos:'
+bb_multi_burn_13='La primera grabación de un CD Multisesión no necesita ningún valor previo de offset '
+bb_multi_burn_14='Ahora, la generación del archivos ISO es posible...'
+
+bb_multi_burn_14b='Etiqueta para tu CD de Datos:'
+
+bb_multi_burn_15='Imagen ISO creada'
+bb_multi_burn_16='Error: No pude crear el archivo ISO.'
+bb_multi_burn_17='Quizás... No hay archivos en'
+bb_multi_burn_18='¿Es posible que no goce de permisos de escritura?'
+
+bb_multi_menu_title='CD Multisesión'
+bb_multi_menu_1='Primera grabación en CD Multisesión'
+bb_multi_menu_2='Continuar grabando en CD Multisesión'
+bb_multi_menu_3='Finalizar CD Multisesión'
+bb_multi_menu_0='Volver'
+bb_multi_menu_entry='Cuál es su elección '
+
+bb_multi_ch0='Volviendo al menú principal...'
+bb_multi_err='Por favor ingrese '
+
+# Local Variables: **
+# mode:shell-script **
+# End: **

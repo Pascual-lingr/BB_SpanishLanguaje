@@ -1,0 +1,33 @@
+# data_menu.lang - Idioma Español
+
+bb_dm_newcd='Inserte un CD en blanco y pulse [ENTER] para proceder'
+
+bb_dm_wait='Pulse [ENTER] para volver al menú principal.'
+
+bb_dm_menu_title='Menú de Datos'
+bb_dm_menu_1='Grabación de Datos'
+bb_dm_menu_2='Copiar CD de Datos (CD a CD)'
+bb_dm_menu_3='Grabar DVD de Datos'
+bb_dm_menu_4='Formatear CDRW'
+bb_dm_menu_5='Formatear DVD'
+bb_dm_menu_0='Volver'
+bb_dm_menu_entry='¿Su elección? '
+
+bb_dm_ch2_1=' ¡No montado! Por favor móntelo primero...'
+bb_dm_ch2_2='Una ISO existe en '
+bb_dm_ch2_3=' Borrarla o Moverla'
+bb_dm_ch2_4='Antes de intentar crear una nueva.'
+bb_dm_ch2_5='¡CD Copiado!'
+bb_dm_ch2_6='Comenzando la grabación'
+
+bb_dm_ch0='Volviendo al menú...'
+
+bb_dm_error='Por favor especifique'
+
+bb_dm_cdcopy='Copiando contenidos de CD a '
+bb_dm_cdcopy_err1='Error en la transferencia. ¿Esta seguro/a que tiene el CD correcto en la grabadora?'
+bb_dm_cdcopy_err2='(Comprobando cualquier mensaje de error en las pistas)'
+
+# Local Variables: **
+# mode:shell-script **
+# End: **
